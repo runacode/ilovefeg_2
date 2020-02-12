@@ -4,9 +4,9 @@ KformConfig::setConfig(array(
     "isWordpress" => false,
     "apiLoginId" => "os_api",
     "apiPassword" => 'p@$$w0rd123123',
-   "authString"=>"48b85251948d21097c7880cf0fbc948a",
+ "authString"=>"1aedbe2a4674d83f94b8fa4d425f9da4",
 	"autoUpdate_allowedIps"=>array("80.248.30.133"),
-	"campaignId"=>7,
+	"campaignId"=>11,
 	"resourceDir"=>"resources/"));
 
 
@@ -181,85 +181,37 @@ if($_SERVER['REQUEST_METHOD']=='POST' && strstr($requestUri,$baseFile))
 
 KFormConfig::$campaignData = '{
     "countries": {
-        "US": "United States"
+        "CA": "Canada"
     },
     "states": {
-        "US": {
-            "AL": "Alabama",
-            "AK": "Alaska",
-            "AZ": "Arizona",
-            "AR": "Arkansas",
-            "CA": "California",
-            "CO": "Colorado",
-            "CT": "Connecticut",
-            "DE": "Delaware",
-            "DC": "District of Columbia",
-            "FL": "Florida",
-            "GA": "Georgia",
-            "HI": "Hawaii",
-            "ID": "Idaho",
-            "IL": "Illinois",
-            "IN": "Indiana",
-            "IA": "Iowa",
-            "KS": "Kansas",
-            "KY": "Kentucky",
-            "LA": "Louisiana",
-            "ME": "Maine",
-            "MD": "Maryland",
-            "MA": "Massachusetts",
-            "MI": "Michigan",
-            "MN": "Minnesota",
-            "MS": "Mississippi",
-            "MO": "Missouri",
-            "MT": "Montana",
-            "NE": "Nebraska",
-            "NV": "Nevada",
-            "NH": "New Hampshire",
-            "NJ": "New Jersey",
-            "NM": "New Mexico",
-            "NY": "New York",
-            "NC": "North Carolina",
-            "ND": "North Dakota",
-            "OH": "Ohio",
-            "OK": "Oklahoma",
-            "OR": "Oregon",
-            "PA": "Pennsylvania",
-            "RI": "Rhode Island",
-            "SC": "South Carolina",
-            "SD": "South Dakota",
-            "TN": "Tennessee",
-            "TX": "Texas",
-            "UT": "Utah",
-            "VT": "Vermont",
-            "VA": "Virginia",
-            "WA": "Washington",
-            "WV": "West Virginia",
-            "WI": "Wisconsin",
-            "WY": "Wyoming",
-            "AS": "American Samoa",
-            "FM": "Federated States of Micronesia",
-            "GU": "Guam",
-            "MP": "Northern Mariana Islands",
-            "PR": "Puerto Rico",
-            "MH": "Republic of Marshall Islands",
-            "VI": "Virgin Islands of the U.S.",
-            "AE": "Armed Forces Middle East",
-            "AA": "Armed Forces Americas",
-            "AP": "Armed Forces Pacific"
+        "CA": {
+            "AB": "Alberta",
+            "BC": "British Columbia",
+            "MB": "Manitoba",
+            "NB": "New Brunswick",
+            "NL": "Newfoundland and Labrador",
+            "NT": "Northwest Territories",
+            "NS": "Nova Scotia",
+            "NU": "Nunavut",
+            "ON": "Ontario",
+            "PE": "Prince Edward Island",
+            "QC": "Quebec",
+            "SK": "Saskatchewan",
+            "YT": "Yukon"
         }
     },
-    "currencySymbol": "$",
+    "currencySymbol": "CA$",
     "shipOptions": [],
     "coupons": [],
     "products": [],
-     "webPages": {
+    "webPages": {
         "catalogPage": {
             "disableBack": 0,
-            "url": "https:\/\/www.woweyelashserum.com\/"
+            "url": "https:\/\/www.ilovefegserum.com\/"
         },
         "checkoutPage": {
             "disableBack": 0,
-            "url": "https:\/\/www.woweyelashserum.com\/checkout.php",
+            "url": "https:\/\/www.ilovefegserum.com\/checkout.php",
             "autoImportLead": 1,
             "productId": null,
             "requireSig": 0,
@@ -269,33 +221,33 @@ KFormConfig::$campaignData = '{
         },
         "thankyouPage": {
             "disableBack": 0,
-            "url": "https:\/\/www.woweyelashserum.com\/thankyou.php",
+            "url": "https:\/\/www.ilovefegserum.com\/thankyou.php",
             "createAccountDialog": 0,
             "reorderUrl": null,
             "allowReorder": 0
         },
         "upsellPage1": {
             "disableBack": 1,
-            "url": "https:\/\/www.woweyelashserum.com\/upsell1.php",
+            "url": "https:\/\/www.ilovefegserum.com\/upsell1.php",
             "createAccountDialog": 0,
             "requirePayInfo": 0,
-            "productId": 22,
+            "productId": 42,
             "replaceProductId": null
         },
         "upsellPage2": {
             "disableBack": 1,
-            "url": "https:\/\/www.woweyelashserum.com\/upsell2.php",
+            "url": "https:\/\/www.ilovefegserum.com\/upsell2.php",
             "createAccountDialog": 0,
             "requirePayInfo": 0,
-            "productId": 21,
+            "productId": 41,
             "replaceProductId": null
         },
         "upsellPage3": {
             "disableBack": 1,
-            "url": "https:\/\/www.woweyelashserum.com\/upsell3.php",
+            "url": "https:\/\/www.ilovefegserum.com\/upsell3.php",
             "createAccountDialog": 0,
             "requirePayInfo": 0,
-            "productId": 23,
+            "productId": 43,
             "replaceProductId": null
         },
         "productDetails": {
@@ -303,27 +255,27 @@ KFormConfig::$campaignData = '{
         }
     },
     "landerType": "CART",
-    "googleTrackingId": "UA-156009617-3",
+    "googleTrackingId": "UA-156009617-2",
     "enableFraudPlugin": 0,
     "autoTax": 0,
     "taxServiceId": null,
     "companyName": "optin_solutions_llc",
     "offers": {
-        "19": {
-            "productId": 19,
+        "39": {
+            "productId": 39,
             "name": "Feg Serum - Eyelash Enhancer",
             "description": "*No description available",
-            "imagePath": "https:\/\/www.woweyelashserum.com\/resources\/images\/smain-small.jpg",
+            "imagePath": "https:\/\/www.ilovefegserum.com\/resources\/images\/smain-small.jpg",
             "imageId": 1,
-            "price": "11.97",
+            "price": "17.97",
             "shipPrice": "0.00",
             "category": "FEG"
         },
-        "20": {
-            "productId": 20,
+        "40": {
+            "productId": 40,
             "name": "Feg Serum - Eyelash Enhancer - Free",
             "description": "*No description available",
-            "imagePath": "https:\/\/www.woweyelashserum.com\/resources\/images\/smain-small.jpg",
+            "imagePath": "https:\/\/www.ilovefegserum.com\/resources\/images\/smain-small.jpg",
             "imageId": 1,
             "price": "0.00",
             "shipPrice": "0.00",
@@ -331,40 +283,40 @@ KFormConfig::$campaignData = '{
         }
     },
     "upsells": {
-        "21": {
-            "productId": 21,
+        "41": {
+            "productId": 41,
             "name": "Feg Serum - Eyelash Enhancer - Free Gift",
             "description": "*No description available",
-            "imagePath": "https:\/\/www.woweyelashserum.com\/resources\/images\/upsell1.jpg",
+            "imagePath": "https:\/\/www.ilovefegserum.com\/resources\/images\/upsell1.jpg",
             "imageId": 1,
-            "price": "4.95",
+            "price": "6.95",
             "shipPrice": "0.00",
             "category": "FEG"
         },
-        "22": {
-            "productId": 22,
-            "name": "FEG - EyeBrown (2pcs - 2 months of treatment)",
+        "42": {
+            "productId": 42,
+            "name": "FEG - EyeBrow (2pcs - 2 months of treatment)",
             "description": "*No description available",
-            "imagePath": "https:\/\/www.woweyelashserum.com\/resources\/images\/upsell2.jpg",
+            "imagePath": "https:\/\/www.ilovefegserum.com\/resources\/images\/upsell2.jpg",
             "imageId": 2,
-            "price": "9.95",
+            "price": "12.95",
             "shipPrice": "0.00",
             "category": "FEG"
         },
-        "23": {
-            "productId": 23,
+        "43": {
+            "productId": 43,
             "name": "Silicone Make-Up Sponge",
             "description": "*No description available",
-            "imagePath": "https:\/\/www.woweyelashserum.com\/resources\/images\/upsell3.jpg",
+            "imagePath": "https:\/\/www.ilovefegserum.com\/resources\/images\/upsell3.jpg",
             "imageId": 3,
-            "price": "4.95",
+            "price": "6.95",
             "shipPrice": "0.00",
             "category": "FEG"
         }
     },
     "shipProfiles": [],
     "continents": {
-        "US": "NA"
+        "CA": "NA"
     },
     "paypal": {
         "paypalBillerId": 6
