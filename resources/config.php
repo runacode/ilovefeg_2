@@ -315,7 +315,7 @@ KFormConfig::$campaignData = '{
             "description": "*No description available",
             "imagePath": "https:\/\/www.ilovefegserum.com\/resources\/images\/smain-small.jpg",
             "imageId": 1,
-            "price": "17.97",
+            "price": "11.97",
             "shipPrice": "0.00",
             "category": "FEG"
         },
@@ -337,7 +337,7 @@ KFormConfig::$campaignData = '{
             "description": "*No description available",
             "imagePath": "https:\/\/www.ilovefegserum.com\/resources\/images\/upsell1.jpg",
             "imageId": 1,
-            "price": "6.95",
+            "price": "4.95",
             "shipPrice": "0.00",
             "category": "FEG"
         },
@@ -347,7 +347,7 @@ KFormConfig::$campaignData = '{
             "description": "*No description available",
             "imagePath": "https:\/\/www.ilovefegserum.com\/resources\/images\/upsell2.jpg",
             "imageId": 2,
-            "price": "12.95",
+            "price": "9.95",
             "shipPrice": "0.00",
             "category": "FEG"
         },
@@ -357,7 +357,7 @@ KFormConfig::$campaignData = '{
             "description": "*No description available",
             "imagePath": "https:\/\/www.ilovefegserum.com\/resources\/images\/upsell3.jpg",
             "imageId": 3,
-            "price": "6.95",
+            "price": "4.95",
             "shipPrice": "0.00",
             "category": "FEG"
         }
