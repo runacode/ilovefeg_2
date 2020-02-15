@@ -1,8 +1,8 @@
 {
-"country_1": "CA",
-  "country_2": "Canada",
-  "currency": "CA$",
-  "FaceBookCurrency": "CAD",
+"country_1": "US",
+  "country_2": "United States",
+  "currency": "$",
+  "FaceBookCurrency": "USD",
 "Lo_Site_Id": 191001,
   "upsell1ID": 42,
   "upsell2ID": 41,
@@ -62,9 +62,9 @@
       "satisfaction_guaranteed": "Satisfaction<br>Guaranteed",
       "add_to_cart": "Add to Cart",
       "support_email": "support@ilovefegserum.com",
-      "rand_head": "Free Shipping Canada only",
+      "rand_head": "Free Shipping USA only",
       "logos": "../resources/images/logos.jpg",
-      "head": "Free Shipping Canada only"
+      "head": "Free Shipping United States only"
     }
   ]
 }
