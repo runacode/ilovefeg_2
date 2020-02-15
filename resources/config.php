@@ -248,7 +248,7 @@ KFormConfig::$campaignData = '{
             "AP": "Armed Forces Pacific"
         }
     },
-    "currencySymbol": "CA$",
+    "currencySymbol": "$",
     "shipOptions": [],
     "coupons": [],
     "products": [],
@@ -364,7 +364,7 @@ KFormConfig::$campaignData = '{
     },
     "shipProfiles": [],
     "continents": {
-        "CA": "NA"
+        "US": "NA"
     },
     "paypal": {
         "paypalBillerId": 6
