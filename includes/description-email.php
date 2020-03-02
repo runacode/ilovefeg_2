@@ -11,9 +11,7 @@
 
 
 <p class="gif-animation mt-5 text-center" style="margin-top: 10px;">
-    <video class autoplay muted loop playsinline poster="../resources/images/transparent-pixel.png">
-        <source type="video/mp4" src="../resources/images/FEG_LP_01.mp4">
-    </video>
+ 
 </p>
 
 <div class="benefit mt-4">
@@ -29,36 +27,9 @@
 
 <div class="magic-grid mt-5">
 
-    <div class="d-flex flex-row">
-        <div>
-
-            <img class="img-fluid" src="../resources/images/100-natural-img.jpg">
-        </div>
-    </div>
-
-    <div class="d-flex flex-row">
-        <div>
-            <img class="img-fluid" src="../resources/images/night-treatment-img.jpg" alt></div>
-    </div>
-
-    <div class="d-flex flex-row">
-        <div>
-            <img class="img-fluid" src="../resources/images/big-strong-eyelashes-img.jpg" alt></div>
-    </div>
-
-    <div class="d-flex flex-row">
-        <div>
-            <img class="img-fluid" src="../resources/images/irritate-eyes-img.jpg" alt></div>
-    </div>
-
-    <div class="d-flex flex-row">
-        <div>
-            <img class="img-fluid" src="../resources/images/tested-animals-img.jpg" alt></div>
-    </div>
-</div>
+  </div>
 
     <div class="red-arrow-next-line">
-        <img src="../resources/images/red_arrow_next_line.svg" alt>
     </div>
 
 
