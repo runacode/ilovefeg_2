@@ -1,6 +1,6 @@
 <?php
 
-include_once("products/index.php");
+//include_once("products/index.php");
 
 //This code must be included at the top of your script before any output is sent to the browser
 //-even before <!DOCTYPE> declaration
